@@ -74,3 +74,11 @@
 .skills__icon span {
     font-size: 1rem;
 }
+
+@media (max-width: 960px) {
+    .sobre-mim{ grid-template-areas: 
+        "title title"
+        "description description"
+        "skills skills";
+    }
+}

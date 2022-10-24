@@ -12,3 +12,17 @@
 .menu li:hover {
     border-bottom: 4px solid var(--primary-color);
 }
+
+.menu__lista {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .menu {
+        display: none;
+    }
+    .menu__lista {
+        display: flex;
+        font-size: 1.25rem;
+    }
+}
