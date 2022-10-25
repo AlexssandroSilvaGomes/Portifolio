@@ -17,6 +17,7 @@
     display: none;
 }
 
+/* TABLET */
 @media (max-width: 960px) {
     .menu {
         display: none;

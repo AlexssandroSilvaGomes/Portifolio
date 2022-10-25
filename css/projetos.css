@@ -45,3 +45,34 @@
     transform: translateY(0%);
     background-color: lightslategray;
 }
+
+/* TABLET */
+@media (max-width: 960px) {
+    .projetos {
+        height: 420vh;
+    }
+    .card-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card {
+        width: 672px;
+        height: 420px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 640px) {
+    .projetos {
+        padding-top: 500px;
+        height: 420vh;
+    }
+    .card-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card {
+        width: 520px;
+        height: 380px;
+    }
+}

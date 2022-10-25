@@ -50,6 +50,7 @@ main {
     color: var(--primary-color-light);
     transition: .5s;
     opacity: 0.3;
+    z-index: 1;
 }
 
 .back:hover {
@@ -80,5 +81,8 @@ footer {
 
 /* MOBILE */
 @media (max-width: 640px) {
-
+    header {
+        max-width: 592px;
+        padding: 0px 48px;
+    }
 }
