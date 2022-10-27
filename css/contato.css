@@ -99,6 +99,7 @@
         height: 260vh;
     }
     .contato-item {
+        justify-content: center;
         font-size: 2rem;
     }
     .contato-title {
