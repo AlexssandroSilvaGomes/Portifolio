@@ -107,7 +107,7 @@
     }
     .contato-container {
         place-self: start center;
-        gap: 24px;
+        gap: 48px;
     }
     .social-container {
         place-self: start center;
@@ -125,6 +125,7 @@
     .link-container {
         place-self: start center;
         text-align: center;
+        gap: 48px;
     }
     .link-container li {
         font-size: 2rem;
