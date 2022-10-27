@@ -64,7 +64,7 @@
 /* MOBILE */
 @media (max-width: 640px) {
     .projetos {
-        padding-top: 500px;
+        padding-top: 800px;
         height: 420vh;
     }
     .card-container {
