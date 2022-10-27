@@ -59,6 +59,12 @@
         width: 672px;
         height: 420px;
     }
+    .card::before {
+        display: none;
+    }
+    .card:hover::before {
+        display: none;
+    }
 }
 
 /* MOBILE */
@@ -74,5 +80,11 @@
     .card {
         width: 520px;
         height: 380px;
+    }
+    .card::before {
+        display: none;
+    }
+    .card:hover::before {
+        display: none;
     }
 }
